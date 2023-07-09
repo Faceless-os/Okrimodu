@@ -1,0 +1,11 @@
+def simulate_sound_level_outside(power, distance): 
+
+    """Calculates the sound level of a user that is outside the classroom.""" 
+
+    intensity = calculate_sound_intensity(power, distance) 
+
+    sound_level = calculate_sound_level(intensity) 
+
+    return sound_level 
+
+ 
